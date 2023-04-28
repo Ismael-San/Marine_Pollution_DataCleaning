@@ -28,22 +28,27 @@ Check :
 - Duplicate records
 - Incorrect data types
 
-Ajoute index pour différencier chaque donnée
+Add index (Event_ID) to differentiate each pollution event
+Add a new 'Year' column. (current Dates column formats differ but we won't be using the exact dates in our analysis)
 
+columnDate formats differ but exact dates won't be relevant for our analysis
 
 Highlights marine pollution between 2002-2020 in Australia
-Selon les polluants (puis en fonction des litres)
-Selon les villes 
+By type of pollutants and starting from 2016, by quantities (will require computation and RegEx to normalize the data, to convert in a common measure unit)
+By Region 
 Displays evolution of marine pollution between 2002-2020
 
-Polluant :
-- Choisir le polluant le plus récurrents
-- Les plus connus (Diesel, Oil) 
+Pollutant :
+- Determine the most recurring pollutant (needs to categorize whether they belong to Oil / Chemicals / Other)
 
 
 Data : 
 
-2002-2016 : Ismael
-2016-2017 : Jamyang
-2019-2020 : Matthieu
+df_0216 : Ismael CSV (with encoding issues)
+df_1617 : Jamyang CSV
+df_1718 : Matthieu (XLSX)
+df_1819 : Jamyang CSV
+df_pol_1920 : Matthieu
+
+Merge the data in a common df_pol
 
