@@ -59,7 +59,7 @@ Region : 5 regions
 - Brisbale / Brisbane
 
 Source: 
-cheak how much coral (remote or not)
+check how much coral (remote or not)
 
 Ship Type : 
 Create a « Goverment » type for « Military », "Navy" and «  Customs »
