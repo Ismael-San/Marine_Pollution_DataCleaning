@@ -54,31 +54,28 @@ Merge the data in a common df_pol
 
 14H45 Check .describe() between tables
 
-Region : 5 regions
+**Regions **: 5 regions
 - check extra spaces (remote extra space - regex)
 - Brisbale / Brisbane
 
-Source: 
+**Source: **
 check how much coral (remote or not)
+Check, count amount  occurence sources from mid-air (Helicopter, Plane...)
 
-Ship Type : 
+**Ship Type : **
 Create a « Goverment » type for « Military », "Navy" and «  Customs »
 Recreational
 Commercial (tanker, trading, trading ship)
 Fishing on garde (au cas où en fonction du nombre d’occurence de cette donnée après le merge)
 
-
-Area : 
-Coastal Waters 
-Port Limits
-
+**Area** : Coastal Waters , Port Limits check other values count occurence of other values if they are relevant
 Verifier définition GBR et GBRMP
 
-Location : Skip 
+**Location **: Skip about to remote this column
 
-Pollutant : sheen, diesel, bilge, heavy fuel oil (HFO) 
+**Pollutant** : sheen, diesel, bilge, heavy fuel oil (HFO) 
 Thinking about sort all to "Oil"
 
-Estimated Litres: 
+**Estimated Litres**: 
 Changer regex column (extra spaces, special caracters)
 Conversion in litres
