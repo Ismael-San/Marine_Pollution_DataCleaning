@@ -52,3 +52,33 @@ df_pol_1920 : Matthieu
 
 Merge the data in a common df_pol
 
+14H45 Check .describe() between tables
+
+Region : 5 regions
+- check extra spaces (remote extra space - regex)
+- Brisbale / Brisbane
+
+Source: 
+cheak how much coral (remote or not)
+
+Ship Type : 
+Create a « Goverment » type for « Military », "Navy" and «  Customs »
+Recreational
+Commercial (tanker, trading, trading ship)
+Fishing on garde (au cas où en fonction du nombre d’occurence de cette donnée après le merge)
+
+
+Area : 
+Coastal Waters 
+Port Limits
+
+Verifier définition GBR et GBRMP
+
+Location : Skip 
+
+Pollutant : sheen, diesel, bilge, heavy fuel oil (HFO) 
+Thinking about sort all to "Oil"
+
+Estimated Litres: 
+Changer regex column (extra spaces, special caracters)
+Conversion
